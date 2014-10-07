@@ -1,6 +1,10 @@
 {
   "name": "klayjs",
   "version": "0.2.0",
+  "author": {
+    "name": "Ulf Rueegg",
+    "email": "uru@informatik.uni-kiel.de"
+  },
   "description": "Automatic graph layout based on Sugiyama's algorithm.",
   "main": "klay.js",
   "scripts": {
@@ -8,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "notyet"
+    "url": "https://github.com/OpenKieler/klayjs.git"
   },
   "keywords": [
     "graph",
@@ -16,7 +20,6 @@
     "layered",
     "ports"
   ],
-  "author": "Ulf Rueegg",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
