@@ -17,9 +17,12 @@ you can take a look at our [KLayJS-D3][klayjs-d3] extension.
 
 Installation
 ===
-Either download the `klay.js` file or install it using `npm`.
+Either download the `klay.js` file or install it using `npm` or `bower`.
 ```bash
 npm install klayjs
+```
+```bash
+bower install klayjs
 ```
 
 Usage
