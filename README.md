@@ -68,7 +68,7 @@ in most cases). Modern browsers support _web workers_, some kind of
 threads for the browser. The following code snippet demonstrates
 how to start and communicate with a web worker performing layout.
 
-```html
+```js
 var worker = new Worker('klayjs.js');
 // send layout request
 worker.postMessage({
