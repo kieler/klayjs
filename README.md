@@ -1,9 +1,6 @@
 KLayJS
 ===
 
-A bridge between [KLayJS](http://rtsys.informatik.uni-kiel.de/confluence/x/6wOE) 
-and [D3.js](http://d3js.org/).
-
 KLayJS is a layer-based layout algorithm that is particularly suited for
 node-link diagrams with an inherent direction and ports 
 (explicit attachment points on a node's border). It is based on the 
