@@ -1,5 +1,8 @@
+var pkg = require('./package.json');
+
 module.exports = function(grunt) {
     grunt.initConfig({
+        pkg: '<json:package.json>',
         config: {
             baseurl: 'http://rtsys.informatik.uni-kiel.de/~kieler/files/',
             folder: 'nightly/klayjs/',
@@ -7,7 +10,7 @@ module.exports = function(grunt) {
         },
         curl: {
             'get-klayjs': {
-                src: '<%= config.baseurl %><%= config.folder %><%= config.file%>',
+                src: '<%= config.baseurl %><%= config.folder %><%= config.file %>',
                 dest: '<%= config.file %>'
             }
         },
@@ -23,6 +26,15 @@ module.exports = function(grunt) {
                 dest: 'klay.js'
             }
         },
+        file_append: {
+            default_options: {
+                files: [{
+                    prepend: '/** klay.js version ' + pkg.version + ' build <%= grunt.template.today("yyyymmddhhmm") %> */\n',
+                    input: 'klay.js',
+                    output: 'klay.js'
+                }]
+            }
+        },
         clean: {
             klay_package: '<%= config.file %>',
             temp_dir: 'klay'
@@ -32,5 +44,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-zip');
     grunt.loadNpmTasks('grunt-rename');
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.registerTask('default', ['curl', 'unzip', 'rename', 'clean']);
+    grunt.loadNpmTasks('grunt-file-append');
+    grunt.registerTask('default', ['curl', 'unzip', 'rename', 'file_append', 'clean']);
 };

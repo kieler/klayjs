@@ -105,6 +105,11 @@ Layout Options
 A broad variety of layout options is supported. The available options 
 and their effects are discussed [here][wiki-layopts]
 
+### Differences
+Other than for the original java version of the layouter, 
+the `layoutHierarchy` options is by default `true`.
+If you intend to use the fixed layouter at some point, you
+have to set this option to `false`.
 
 Examples 
 ===
