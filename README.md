@@ -12,6 +12,11 @@ For further information see the KIELER [Wiki pages][wiki-klay].
 In case you want to use the layout in conjunction with [D3.js][d3js] 
 you can take a look at our [KLayJS-D3][klayjs-d3] extension.
 
+
+Example Layout of a Ptolemy Diagram
+===
+![Ptolemy Diagram](http://rtsys.informatik.uni-kiel.de/~uru/ptolemy.png)
+
 Installation
 ===
 Either download the `klay.js` file or install it using `npm` or `bower`.
@@ -107,7 +112,7 @@ and their effects are discussed [here][wiki-layopts]
 
 ### Differences
 Other than for the original java version of the layouter, 
-the `layoutHierarchy` options is by default `true`.
+the `layoutHierarchy` option is by default `true`.
 If you intend to use the fixed layouter at some point, you
 have to set this option to `false`.
 
@@ -119,8 +124,13 @@ Some examples using the [KLayJS-D3][klayjs-d3] extension are available at:
 - [Ports](http://openkieler.github.io/klayjs-d3/examples/ports/)
 - [Hierarchy](http://openkieler.github.io/klayjs-d3/examples/hierarchy/)
 
-See the `examples` folder of the other project.
+See the `examples` folder of the klayjs-d3 project.
 
+#### SCChart with Dataflow
+![SCChart with Dataflow](http://rtsys.informatik.uni-kiel.de/~uru/scchartsdataflow.png)
+
+#### Sequentially Constructive Graph
+![Sequentially Constructive Graph](http://rtsys.informatik.uni-kiel.de/~uru/scg.png)
 
 [wiki-klay]: http://rtsys.informatik.uni-kiel.de/confluence/display/KIELER/KLay+Layered
 [wiki-layopts]: http://rtsys.informatik.uni-kiel.de/confluence/display/KIELER/KLay+Layered+Layout+Options
