@@ -11,7 +11,7 @@ For further information see the KIELER [Wiki pages][wiki-klay].
 
 In case you want to use the layout in conjunction with [D3.js][d3js] 
 you can take a look at our [KLayJS-D3][klayjs-d3] extension.
-
+gru
 
 Example Layout of a Ptolemy Diagram
 ===
@@ -58,7 +58,7 @@ that are applied to every graph element.
 <script>
 $klay.layout({
   graph: graph,
-  options: { spacing: 50 },
+  options: { spacing: 20 },
   success: function(layouted) { console.log(layouted); },
   error: function(error) { console.log(error); }
 });
@@ -111,18 +111,19 @@ A broad variety of layout options is supported. The available options
 and their effects are discussed [here][wiki-layopts]
 
 ### Differences
-Other than for the original java version of the layouter, 
-the `layoutHierarchy` option is by default `true`.
-If you intend to use the fixed layouter at some point, you
-have to set this option to `false`.
+- Other than for the original java version of the layouter, 
+  the `layoutHierarchy` option is by default `true`.
+- If you intend to use the fixed layouter (`de.cau.cs.kieler.fixed`) at some point, you
+  have to set `layoutHierarchy` to `false`.
 
 Examples 
 ===
 
 Some examples using the [KLayJS-D3][klayjs-d3] extension are available at:
-- [Miserables](http://openkieler.github.io/klayjs-d3/examples/miserables/) (Data From D3 Force Example)
 - [Ports](http://openkieler.github.io/klayjs-d3/examples/ports/)
 - [Hierarchy](http://openkieler.github.io/klayjs-d3/examples/hierarchy/)
+- [Interactive](http://openkieler.github.io/klayjs-d3/examples/interactive/)
+- [Miserables](http://openkieler.github.io/klayjs-d3/examples/miserables/) (Data From D3 Force Example)
 
 See the `examples` folder of the klayjs-d3 project.
 
