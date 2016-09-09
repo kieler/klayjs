@@ -116,6 +116,24 @@ and their effects are discussed [here][wiki-layopts]
 - If you intend to use the fixed layouter (`de.cau.cs.kieler.fixed`) at some point, you
   have to set `layoutHierarchy` to `false`.
 
+ELK - Eclipse Layout Kernel
+===
+Since I explain what ELK is again and again, I though I can just as well put it in the docu ...
+
+The Java-based [ELK](https://github.com/eclipse/elk) project
+is the successor of the [KIELER]() project. KIELER didn't die however, 
+we only extracted the parts of the code related to automatic layout
+and put it into an official Eclipse project: ELK.
+We thought that this step offers a good opportunity 
+to clean up and refactor several parts of the code.
+Additionally, we started using Java8 features in ELK.
+Last time I checked, gwt didn't support Java8 API yet.
+
+Therefore, klay.js will be migrated to ELK as soon as:
+ * all planned refactorings are done
+ * gwt supports Java8 features
+
+
 Examples 
 ===
 
