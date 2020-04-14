@@ -129,10 +129,10 @@ Examples
 ===
 
 Some examples using the [KLayJS-D3][klayjs-d3] extension are available at:
-- [Ports](http://openkieler.github.io/klayjs-d3/examples/ports/)
-- [Hierarchy](http://openkieler.github.io/klayjs-d3/examples/hierarchy/)
-- [Interactive](http://openkieler.github.io/klayjs-d3/examples/interactive/)
-- [Miserables](http://openkieler.github.io/klayjs-d3/examples/miserables/) (Data From D3 Force Example)
+- [Ports](http://kieler.github.io/klayjs-d3/examples/ports/)
+- [Hierarchy](http://kieler.github.io/klayjs-d3/examples/hierarchy/)
+- [Interactive](http://kieler.github.io/klayjs-d3/examples/interactive/)
+- [Miserables](http://kieler.github.io/klayjs-d3/examples/miserables/) (Data From D3 Force Example)
 
 See the `examples` folder of the klayjs-d3 project.
 
