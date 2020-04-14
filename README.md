@@ -20,11 +20,10 @@ For further information see the KIELER [Wiki pages][wiki-klay].
 
 In case you want to use the layout in conjunction with [D3.js][d3js] 
 you can take a look at our [KLayJS-D3][klayjs-d3] extension.
-gru
 
 Example Layout of a Ptolemy Diagram
 ===
-![Ptolemy Diagram](http://rtsys.informatik.uni-kiel.de/~uru/ptolemy.png)
+![](https://raw.githubusercontent.com/kieler/elkjs/master/doc/example_complexRouter.svg?sanitize=true)
 
 Installation
 ===
@@ -135,12 +134,6 @@ Some examples using the [KLayJS-D3][klayjs-d3] extension are available at:
 - [Miserables](http://kieler.github.io/klayjs-d3/examples/miserables/) (Data From D3 Force Example)
 
 See the `examples` folder of the klayjs-d3 project.
-
-#### SCChart with Dataflow
-![SCChart with Dataflow](http://rtsys.informatik.uni-kiel.de/~uru/scchartsdataflow.png)
-
-#### Sequentially Constructive Graph
-![Sequentially Constructive Graph](http://rtsys.informatik.uni-kiel.de/~uru/scg.png)
 
 [wiki-klay]: http://rtsys.informatik.uni-kiel.de/confluence/display/KIELER/KLay+Layered
 [wiki-layopts]: http://rtsys.informatik.uni-kiel.de/confluence/display/KIELER/KLay+Layered+Layout+Options
