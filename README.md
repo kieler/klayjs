@@ -1,4 +1,4 @@
-**Deprecated: Use [elkjs](https://github.com/OpenKieler/elkjs)**
+**Deprecated: Use [elkjs](https://github.com/kieler/elkjs)**
 ===
 
 elkjs is now available and klayjs is deprecated. In other words, open bugs will be migrated to elkjs and hopefully fixed there. This repository will persist, however, no fixes or new builds are to be expected. 
@@ -145,5 +145,5 @@ See the `examples` folder of the klayjs-d3 project.
 [wiki-klay]: http://rtsys.informatik.uni-kiel.de/confluence/display/KIELER/KLay+Layered
 [wiki-layopts]: http://rtsys.informatik.uni-kiel.de/confluence/display/KIELER/KLay+Layered+Layout+Options
 [jsonkgraph]: http://rtsys.informatik.uni-kiel.de/confluence/display/KIELER/JSON+Graph+Format
-[klayjs-d3]: https://github.com/OpenKieler/klayjs-d3
+[klayjs-d3]: https://github.com/kieler/klayjs-d3
 [d3js]: http://d3js.org/
